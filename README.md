@@ -8,6 +8,18 @@
 1. 키워드를 입력받고 youtube-dl을 통해 상위 3개의 음원을 *.mp3 확장자 형태로 다운로드 받습니다.
 2. 다운로드 받는 mp3 파일은 ID3 태그를 통해 파싱을 진행합니다. 설정한 정보는 가수(artist), 엘범(album), 제목(title) 입니다.
 
+
+---
+
+### module
+
+사용한 모듈을 아래와 같습니다.
+
+![image](https://user-images.githubusercontent.com/88240193/167802697-ea6aefe6-af92-45a1-a404-b5033f03c96b.png)
+
+
+
+
 ---
 
 ## 클래스
