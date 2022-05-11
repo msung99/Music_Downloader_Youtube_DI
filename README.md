@@ -26,8 +26,8 @@
 
 사용자 정의 클래스는 2가지입니다.
 
-1. class download_mp3() : 사용자에게 입력받은 keyword를 기반으로 유튜브에서 상위 3개의 음악을 다운로드 받을 수 있는 메소드가 정의되어 있습니다.
-2. class getVideo() : 선택한 영상에서 mp3 확장자 형태로 다운로드 받습니다. 
+1. class download_mp3() 
+2. class getVideo() 
 
 ---
 
