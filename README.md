@@ -1,13 +1,10 @@
-# be-hackathon-Lilion
-
-
-## 요약
-
-나만의 음악 다운로더 프로그램
-
-1. 키워드를 입력받고 youtube-dl을 통해 상위 3개의 음원을 *.mp3 확장자 형태로 다운로드 받습니다.
-2. 다운로드 받는 mp3 파일은 ID3 태그를 통해 파싱을 진행합니다. 설정할 정보는 가수(artist), 엘범(album), 제목(title) 입니다.
-
+### 본 프로젝트는 [Youtube-dl](https://github.com/ytdl-org/youtube-dl)과 BeautifulSoup을 이용하여 나만의 음악 다운로더 프로그램을 만드는 것입니다.
+      
+- 원하는 음원 사이트에서 상위 10개의 음원을 Youtube-dl을 통해 *.mp3 확장자 형태로 다운로드 받고 [eyeD3](https://eyed3.readthedocs.io/en/latest/) 등으로 ID3 태그를 음원 사이트에서 "제목", "가수", "앨범", "앨범아트" 정보를 파싱하여 설정합니다.
+    
+- 특정 음악을 검색하여 검색 결과 상에서 해당하는 음악을 Youtube-dl을 통해 *.mp3 확장자 형태로 다운로드 받고 [eyeD3](https://eyed3.readthedocs.io/en/latest/) 등으로 ID3 태그를 음원 사이트에서 "제목", "가수", "앨범", "앨범아트" 정보를 파싱하여 설정합니다.
+    
+- 위 라이브러리를 통해 *.mp3로 변환하기 위하여 [FFmpeg](https://ffmpeg.org/)가 요구됩니다.
 
 ---
 
