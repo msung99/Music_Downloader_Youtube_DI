@@ -14,9 +14,9 @@ from bs4 import BeautifulSoup
 #bs4 라이브러리에서 Beautifulsoup 사용 선언
 import lxml
 import requests 
-
-import youtube_dl
+\
 import pandas
+import youtube_dl
 
 import os
 import eyed3
