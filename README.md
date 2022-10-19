@@ -10,12 +10,10 @@
 
 ### module
 
-사용한 모듈을 아래와 같습니다.
+사용한 모듈은 아래와 같습니다.
+- #### pandas, numpy, beautifulsoup, selenium, requests, eyed3, os, ... 등
 
 ![image](https://user-images.githubusercontent.com/88240193/167802697-ea6aefe6-af92-45a1-a404-b5033f03c96b.png)
-
-
-
 
 ---
 
